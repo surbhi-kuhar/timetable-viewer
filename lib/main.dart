@@ -51,6 +51,7 @@ class _TimeTableState extends State<TimeTable> {
   @override
   static const snackBar = SnackBar(
     content: Text('Success !!'),
+    duration: Duration(seconds:1),
   );
 
   Widget build(BuildContext context) {
